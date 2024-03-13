@@ -1,0 +1,235 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height:150%;
+    color: #F5F2D0;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+/* TÍTULOS INICIAIS */
+.name{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 200px;
+}
+
+.graduando{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.infos{
+    text-align: center;
+    font-size: 1.15rem;
+}
+
+/* LADOS */
+.half {
+    width: 30%;
+    height: 100%;
+}
+
+.left {
+    width: 20%;
+    padding-left: 10px;
+    background-color: #748653;
+}
+
+.right {
+    flex: 1;
+    background-color: #F5F2D0;
+    overflow: visible;
+}
+
+/* TÓPICOS */
+.topics {
+    text-align: center;
+    font-size: 1.15rem;
+    color: #F5F2D0;
+    margin-top: 100px;
+}
+
+.formacao{
+    padding-top: 70px;
+}
+
+.projetos{
+    padding-top: 70px;
+}
+
+/* FOTOS */
+.fotos{
+    padding-top: 100px;
+    padding-left: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eu_kid{
+    width: 350px;
+    border-radius: 1rem;
+    padding: 1px;
+    border: 3px solid #748653;
+}
+
+.eu_praia{
+    width: 350px;
+    border-radius: 1rem;
+    padding: 1px;
+    border: 3px solid #748653;
+}
+
+.eu_veio{
+    width: 350px;
+    border-radius: 1rem;
+    padding: 1px;
+    border: 3px solid #748653;
+    margin-right: 130px;
+}
+
+/* TEXTOS */
+.textoFormacao{
+    text-align: center;
+    font-size: x-large;
+    color: #000000;
+    padding-top: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.textoSobreMim{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    padding-top: 165px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.textoProjetos{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    padding-top: 165px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/* LINHAS */
+.linha0{display: inline-block; width: 100%; border-top: 0.2px solid #F5F2D0;}
+.linha1{display: inline-block; width: 100%; border-top: 0.2px solid #F5F2D0;}
+.linha2{display: inline-block; width: 100%; border-top: 0.2px solid #F5F2D0;}
+.linha3{display: inline-block; width: 100%; border-top: 0.2px solid #F5F2D0;}
+
+.linha4{display: inline-block; width: 100%; border-top: 0.2px solid #748653;}
+.linha5{display: inline-block; width: 100%; border-top: 0.2px solid #748653;}
+.linha6{display: inline-block; width: 100%; border-top: 0.2px solid #748653;}
+.linha7{display: inline-block; width: 100%; border-top: 0.2px solid #748653;}
+
+/* CONTATOS */
+body{
+	background: #F5F2D0;
+	font-family: "Helvetica", "Arial";
+	padding-top: 100px;
+	text-align: center;
+}
+
+a{
+	background: #F5F2D0;
+	color: #222;
+	border-radius: 100%;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	width: 40px;
+	height: 28px;
+	margin: 0 2px;
+	padding-top: 12px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+a.icon:before{
+	font-family: "FontAwesome", sans-serif;
+	color: #fff;
+	font-size: 20px;
+}
+a.fa-linkedin:before{
+	content: '\f09a';
+}
+a.fa-whatsapp:before{
+	content: '\f099';
+}
+a.github:before{
+	content: '\f113';
+}
+a.fa-envelope:before{
+	content: '\f17d';
+}
+
+a span{
+	background: #fff;
+	color: #222;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+	left: -25px;
+	right: -25px;
+	padding: 5px 7px;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all .4s;
+	transition: all .4s;
+}
+a span:before{
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #fff;
+	position: absolute;
+	bottom: -5px;
+	left: 40px;
+}
+a:hover span{
+	bottom: 50px;
+	visibility: visible;
+	opacity: 1;
+}
+
+/* hover over the icons now to see the tooltips! */
+a.fa-linkedin:hover{
+	background-color: #4183d7;
+	color: #bfbfbf;
+}
+a.fa-linkedin span{
+	color: #4183d7;
+}
+a.fa-whatsapp:hover{
+	background-color: #19b5fe;
+	color: #fff;
+}
+a.fa-whatsapp span{
+	color: #19b5fe;
+}
+a.github:hover{
+	background-color: #000;
+	color: #fff;
+}
+a.github span{
+	color: #000;
+}
+a.fa-envelope:hover{
+	background-color: #f62459;
+	color: #fff;
+}
+a.fa-envelope span{
+	color: #f62459;
+}

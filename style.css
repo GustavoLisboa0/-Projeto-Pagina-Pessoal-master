@@ -204,7 +204,6 @@ a:hover span{
 	opacity: 1;
 }
 
-/* hover over the icons now to see the tooltips! */
 a.fa-linkedin:hover{
 	background-color: #4183d7;
 	color: #bfbfbf;

@@ -93,7 +93,7 @@ body, html {
 
 /* TEXTOS */
 .textoFormacao{
-    text-align: center;
+    text-align: justify;
     font-size: x-large;
     color: #000000;
     padding-top: 0px;
@@ -104,17 +104,17 @@ body, html {
 .textoSobreMim{
     text-align: center;
     font-size: x-large;
-    color: black;
-    padding-top: 165px;
+    color: #000000;
+    padding-top: 0px;
     padding-left: 70px;
     padding-right: 70px;
 }
 
 .textoProjetos{
-    text-align: center;
+    text-align: justify;
     font-size: x-large;
-    color: black;
-    padding-top: 165px;
+    color: #000000;
+    padding-top: 0px;
     padding-left: 70px;
     padding-right: 70px;
 }
@@ -134,7 +134,6 @@ body, html {
 body{
 	background: #F5F2D0;
 	font-family: "Helvetica", "Arial";
-	padding-top: 100px;
 	text-align: center;
 }
 
@@ -156,20 +155,20 @@ a{
 }
 a.icon:before{
 	font-family: "FontAwesome", sans-serif;
-	color: #fff;
+	color: #748653;
 	font-size: 20px;
 }
 a.fa-linkedin:before{
-	content: '\f09a';
+	content: '\f0e1';
 }
 a.fa-whatsapp:before{
-	content: '\f099';
+	content: '\f232';
 }
 a.github:before{
 	content: '\f113';
 }
 a.fa-envelope:before{
-	content: '\f17d';
+	content: '\f0e0';
 }
 
 a span{
@@ -212,11 +211,11 @@ a.fa-linkedin span{
 	color: #4183d7;
 }
 a.fa-whatsapp:hover{
-	background-color: #19b5fe;
+	background-color: #00BB2D;
 	color: #fff;
 }
 a.fa-whatsapp span{
-	color: #19b5fe;
+	color: #00BB2D;
 }
 a.github:hover{
 	background-color: #000;
@@ -231,4 +230,8 @@ a.fa-envelope:hover{
 }
 a.fa-envelope span{
 	color: #f62459;
+}
+
+.link{
+    color: #748653;
 }

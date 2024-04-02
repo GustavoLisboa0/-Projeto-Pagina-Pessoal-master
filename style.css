@@ -20,11 +20,7 @@ body, html {
 .graduando{
     text-align: center;
     font-size: 1.3rem;
-}
-
-.infos{
-    text-align: center;
-    font-size: 1.15rem;
+    margin-bottom: 180px;
 }
 
 /* LADOS */
@@ -53,12 +49,16 @@ body, html {
     margin-top: 100px;
 }
 
+.sobremim{
+    padding-top: 85px;
+}
+
 .formacao{
-    padding-top: 70px;
+    padding-top: 150px;
 }
 
 .projetos{
-    padding-top: 70px;
+    padding-top: 205px;
 }
 
 /* FOTOS */
@@ -121,11 +121,11 @@ body, html {
 
 /* LINHAS */
 .linha0{display: inline-block; width: 100%; border-top: 0.2px solid #F5F2D0;}
-.linha1{display: inline-block; width: 100%; border-top: 0.2px solid #F5F2D0;}
-.linha2{display: inline-block; width: 100%; border-top: 0.2px solid #F5F2D0;}
-.linha3{display: inline-block; width: 100%; border-top: 0.2px solid #F5F2D0;}
+.linha1{display: inline-block; width: 100%; border-top: 0.2px solid #F5F2D0; margin-top: 72px;}
+.linha2{display: inline-block; width: 100%; border-top: 0.2px solid #F5F2D0; margin-top: 146px;}
+.linha3{display: inline-block; width: 100%; border-top: 0.2px solid #F5F2D0; margin-top: 211px; padding-bottom: 20px;}
 
-.linha4{display: inline-block; width: 100%; border-top: 0.2px solid #748653;}
+.linha4{display: inline-block; width: 100%; border-top: 0.2px solid #748653; margin-top: 100px;}
 .linha5{display: inline-block; width: 100%; border-top: 0.2px solid #748653;}
 .linha6{display: inline-block; width: 100%; border-top: 0.2px solid #748653;}
 .linha7{display: inline-block; width: 100%; border-top: 0.2px solid #748653;}

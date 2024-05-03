@@ -1,4 +1,4 @@
-body, html {
+body, html{
     margin: 0;
     padding: 0;
     height:150%;
@@ -7,13 +7,13 @@ body, html {
 
 /* FONTES */
 
-.poetsen-one-regular {
+.poetsen-one-regular{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }  
 
-.patrick-hand-regular {
+.patrick-hand-regular{
     font-family: "Patrick Hand", cursive;
     font-weight: 400;
     font-style: normal;
@@ -39,24 +39,24 @@ h1, h2, h3{
 
 /* LADOS */
 
-.container {
+.container{
     display: flex;
     height: auto;
 }
 
-.half {
+.half{
     width: 30%;
     position: relative;
 }
 
-.left {
+.left{
     width: 20%;
     padding-left: 10px;
     background-color: #748653;
     float: left;
 }
 
-.right {
+.right{
     flex: 1;
     background-color: #F5F2D0;
     overflow: visible;
@@ -156,11 +156,12 @@ p{
     padding-left: 70px;
 }
 
-form {
+form{
     max-width: 300px;
     padding-top: 10px;
 }
-input[type="text"] {
+
+input[type="text"]{
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -168,7 +169,8 @@ input[type="text"] {
     font-family: Patrick Hand;
     font-size: medium;
 }
-input[type="submit"] {
+
+input[type="submit"]{
     width: 100%;
     background-color: #748653;
     color: white;
@@ -179,7 +181,8 @@ input[type="submit"] {
     font-family: Patrick Hand;
     font-size: medium;
 }
-input[type="submit"]:hover {
+
+input[type="submit"]:hover{
     background-color: #515e3a;
 }
 

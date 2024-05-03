@@ -11,10 +11,11 @@ function saveData() {
         let jsonData = JSON.stringify(userData);
 
         localStorage.setItem("userData", jsonData);
+        console.log(jsonData);
 
         alert("Dados de contato salvos com sucesso! :)");
     } else {
-        alert("Desculpe, seu navegador não suporta armazenamento local :(.");
+        alert("Desculpe, seu navegador não suporta armazenamento local. :(");
     }
 }
 

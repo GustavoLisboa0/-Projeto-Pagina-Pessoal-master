@@ -47,23 +47,26 @@ h1, h2, h3{
 .half {
     width: 30%;
     height: 100%;
+    position: relative;
 }
 
 .left {
     width: 20%;
     padding-left: 10px;
     background-color: #748653;
+    float: left;
 }
 
 .right {
     flex: 1;
     background-color: #F5F2D0;
     overflow: visible;
+    float: right;
 }
 
 /* TÓPICOS */
 
-.topics {
+.topics{
     text-align: center;
     font-size: 1.15rem;
     color: #F5F2D0;

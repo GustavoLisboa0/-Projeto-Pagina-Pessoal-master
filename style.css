@@ -168,6 +168,8 @@ input[type="text"]{
     box-sizing: border-box;
     font-family: Patrick Hand;
     font-size: medium;
+    border-radius: 0.85rem;
+    border-color: #748653;
 }
 
 input[type="submit"]{

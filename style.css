@@ -41,12 +41,11 @@ h1, h2, h3{
 
 .container {
     display: flex;
-    height: 100%;
+    height: auto;
 }
 
 .half {
     width: 30%;
-    height: 100%;
     position: relative;
 }
 
@@ -147,6 +146,41 @@ p{
     padding-top: 0px;
     padding-left: 70px;
     padding-right: 70px;
+}
+
+/* CONTATO DOS USUÁRIOS */
+
+.entreContato{
+    color: #748653;
+    text-align: left;
+    padding-left: 70px;
+}
+
+form {
+    max-width: 300px;
+    padding-top: 10px;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-family: Patrick Hand;
+    font-size: medium;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #748653;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.85rem;
+    font-family: Patrick Hand;
+    font-size: medium;
+}
+input[type="submit"]:hover {
+    background-color: #515e3a;
 }
 
 /* LINHAS */
